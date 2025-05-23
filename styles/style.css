@@ -74,7 +74,7 @@
 }
 
 .card__title {
-  font-weight: 700; 
+  font-weight: 700;
   font-variation-settings: 'wght' 700;
   border: 2px solid var(--accent-color);
   padding: 5px 10px;
