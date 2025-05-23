@@ -6,7 +6,8 @@
     --card-width: clamp(375px, 100vw, 700px);
     --logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
     --logo_content-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
-    --label-stroke-color: #fff;
+    --label-stroke-color: #ED20B7;
+    --label-text-color: #fff;
     --bg-color: #fff;
     --accent-color: #000;
     --text-color: #000;
