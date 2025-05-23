@@ -28,6 +28,7 @@
   font-family: var(--accent-font);
   margin-block-start: 100px;
   margin-block-end: 100px;
+  font-weight: 400;
   font-variation-settings: var(--font-settings-normal);
 }
 
@@ -72,7 +73,8 @@
 }
 
 .card__title {
-  font-weight: 700;
+  font-weight: 700; 
+  font-variation-settings: 'wght' 700;
   border: 2px solid var(--accent-color);
   padding: 5px 10px;
 }
@@ -99,7 +101,7 @@
 }
 
 .card__vivid {
-  filter: contrast(0.85) hue-rotate(-30deg); 
+  filter: contrast(0.85) hue-rotate(-30deg);
 }
 
 .card__inverted {
@@ -112,6 +114,7 @@
 
 .card__blurred {
   filter: blur(8px);
+  border: 2px solid var(--accent-color);
 }
 
 .card__faded {
